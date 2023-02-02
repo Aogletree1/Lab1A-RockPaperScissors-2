@@ -27,32 +27,36 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:text="Welcome to Rock-Paper-Scissors!" />
+            android:text="Welcome to Rock-Paper-Scissors!" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:text="Please choose your weapon:" />
+            android:text="Please choose your weapon:" />
 
         <Button
             android:id="@+id/rockB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:tag="rockB"
             android:text="Rock" />
 
         <Button
             android:id="@+id/paperB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:tag="paperB"
             android:text="Paper" />
 
         <Button
             android:id="@+id/scissorsB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:tag="scissorsB"
             android:text="Scissors" />
 
         <TextView
