@@ -6,9 +6,14 @@ android {
     namespace 'com.example.cs408lab1a'
     compileSdk 33
 
+
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.cs408lab1a"
-        minSdk 24
+        minSdk 22
         targetSdk 33
         versionCode 1
         versionName "1.0"
